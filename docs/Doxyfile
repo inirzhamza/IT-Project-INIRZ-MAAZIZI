@@ -1,0 +1,28 @@
+PROJECT_NAME           = "Lookback MC"
+OUTPUT_DIRECTORY       = docs_out
+INPUT                  = ../code/
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+QUIET                  = YES
+DOT_PATH = "C:/Program Files/Graphviz/bin"
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 0
+UML_LOOK               = YES
+DOT_UML_DETAILS        = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+FULL_PATH_NAMES        = NO
+
+STRIP_FROM_PATH        = ../
+
+CLASS_DIAGRAMS         = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+GRAPHICAL_HIERARCHY    = YES
+DIRECTORY_GRAPH        = YES
